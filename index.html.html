@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Termos de Serviço do Bot Oficial da Cidade Roleplay.">
+  <title>Termos de Serviço | Cidade Roleplay</title>
+  <style>
+    :root {
+      --bg: #080a0f;
+      --panel: #11151d;
+      --panel-2: #151a24;
+      --text: #f5f7fb;
+      --muted: #a7afbf;
+      --accent: #5865f2;
+      --accent-2: #7280ff;
+      --border: rgba(255,255,255,.08);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 20% 0%, rgba(88,101,242,.20), transparent 35%),
+        radial-gradient(circle at 90% 20%, rgba(114,128,255,.10), transparent 30%),
+        var(--bg);
+      min-height: 100vh;
+      line-height: 1.7;
+    }
+
+    header {
+      min-height: 360px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 70px 20px 55px;
+      position: relative;
+      overflow: hidden;
+      border-bottom: 1px solid var(--border);
+    }
+
+    header::before {
+      content: "";
+      position: absolute;
+      width: 520px;
+      height: 520px;
+      border: 1px solid rgba(255,255,255,.04);
+      border-radius: 50%;
+      top: -330px;
+      left: 50%;
+      transform: translateX(-50%);
+      box-shadow: 0 0 0 70px rgba(255,255,255,.015),
+                  0 0 0 140px rgba(255,255,255,.012);
+    }
+
+    .hero { position: relative; z-index: 1; max-width: 850px; }
+
+    .badge {
+      display: inline-block;
+      padding: 7px 15px;
+      border-radius: 999px;
+      border: 1px solid rgba(114,128,255,.35);
+      background: rgba(88,101,242,.10);
+      color: #cdd2ff;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 7vw, 72px);
+      line-height: 1.05;
+      letter-spacing: -.04em;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      color: var(--muted);
+      font-size: 17px;
+      max-width: 650px;
+      margin: auto;
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 45px auto 70px;
+    }
+
+    .updated {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    .card {
+      background: linear-gradient(180deg, rgba(21,26,36,.95), rgba(17,21,29,.95));
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 28px;
+      margin: 16px 0;
+      box-shadow: 0 14px 45px rgba(0,0,0,.22);
+    }
+
+    h2 {
+      font-size: 21px;
+      margin-bottom: 12px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    h2 span { color: var(--accent-2); }
+
+    p, li { color: #c2c8d4; }
+    ul { padding-left: 22px; }
+    li { margin: 6px 0; }
+
+    .accept {
+      text-align: center;
+      background: linear-gradient(135deg, rgba(88,101,242,.16), rgba(114,128,255,.05));
+      border-color: rgba(114,128,255,.22);
+    }
+
+    .accept strong { color: white; }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 20px;
+      text-align: center;
+      color: #747d8e;
+      font-size: 13px;
+    }
+
+    .brand { color: #cdd2ff; font-weight: 800; }
+
+    @media (max-width: 600px) {
+      header { min-height: 310px; }
+      .card { padding: 22px; }
+      h2 { font-size: 19px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="hero">
+      <div class="badge">Bot Oficial</div>
+      <h1>Cidade Roleplay</h1>
+      <p>Termos de Serviço do Bot Oficial da nossa comunidade de Roleplay no Roblox.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="updated">Última atualização: 10 de setembro de 2026</div>
+
+    <section class="card">
+      <h2><span>01</span> Sobre o Bot</h2>
+      <p>
+        O Bot da Cidade Roleplay foi desenvolvido para auxiliar na administração
+        e organização da comunidade, oferecendo recursos como registro,
+        atendimento, informações, moderação e outras funcionalidades relacionadas
+        ao servidor.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2><span>02</span> Uso do Bot</h2>
+      <p>Ao utilizar o bot, você concorda em:</p>
+      <ul>
+        <li>Utilizá-lo de maneira adequada e responsável;</li>
+        <li>Respeitar as regras do Discord e da Cidade Roleplay;</li>
+        <li>Não explorar, modificar ou prejudicar seu funcionamento;</li>
+        <li>Não utilizá-lo para atividades ilegais ou prejudiciais;</li>
+        <li>Não tentar obter acesso não autorizado a sistemas administrativos.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><span>03</span> Registro e Whitelist</h2>
+      <p>
+        Algumas funcionalidades podem solicitar informações necessárias para o
+        processo de registro ou whitelist. O usuário é responsável por fornecer
+        informações verdadeiras e atualizadas. A administração poderá negar,
+        suspender ou remover um registro em caso de informações falsas, fraude
+        ou violação das regras.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2><span>04</span> Moderação</h2>
+      <p>
+        O bot poderá executar ações de moderação conforme as configurações
+        estabelecidas pela administração, incluindo avisos, expulsões,
+        banimentos, gerenciamento de tickets e cargos e outras ações necessárias
+        para manter a organização da comunidade.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2><span>05</span> Disponibilidade</h2>
+      <p>
+        O bot é disponibilizado sem garantia de funcionamento contínuo. Podem
+        ocorrer interrupções para manutenção, atualizações, correções ou por
+        problemas técnicos. Funcionalidades poderão ser adicionadas, alteradas
+        ou removidas a qualquer momento.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2><span>06</span> Conduta do Usuário</h2>
+      <p>Não é permitido utilizar o bot para:</p>
+      <ul>
+        <li>Praticar spam;</li>
+        <li>Realizar tentativas de invasão ou exploração de falhas;</li>
+        <li>Distribuir conteúdo malicioso;</li>
+        <li>Fraudar sistemas da comunidade;</li>
+        <li>Prejudicar outros usuários;</li>
+        <li>Violar as regras do Discord ou da Cidade Roleplay.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><span>07</span> Suspensão de Acesso</h2>
+      <p>
+        A administração da Cidade Roleplay poderá restringir ou remover o acesso
+        de um usuário ao bot caso sejam violados estes Termos de Serviço ou as
+        regras da comunidade.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2><span>08</span> Alterações nos Termos</h2>
+      <p>
+        Estes Termos de Serviço poderão ser atualizados a qualquer momento.
+        A versão mais recente estará disponível nesta página.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2><span>09</span> Contato</h2>
+      <p>
+        Para dúvidas, problemas ou contato com a equipe responsável pelo bot,
+        utilize os canais oficiais de atendimento da Cidade Roleplay no Discord.
+      </p>
+    </section>
+
+    <section class="card accept">
+      <h2>✅ Aceitação</h2>
+      <p>
+        Ao utilizar o <strong>Bot da Cidade Roleplay</strong>, você declara que
+        leu, compreendeu e concorda com estes Termos de Serviço.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <span class="brand">Cidade Roleplay</span> · Bot Oficial · © 2026
+  </footer>
+</body>
+</html>
